@@ -1,0 +1,28 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 29, in script
+    if y==fool:
+  File "game/script.rpy", line 29, in <module>
+    if y==fool:
+NameError: name 'fool' is not defined
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 29, in script
+    if y==fool:
+  File "C:\Users\zbledsoe9495\Downloads\renpy-6.99.14.1-sdk\renpy\ast.py", line 1702, in execute
+    if renpy.python.py_eval(condition):
+  File "C:\Users\zbledsoe9495\Downloads\renpy-6.99.14.1-sdk\renpy\python.py", line 1843, in py_eval
+    return py_eval_bytecode(code, globals, locals)
+  File "C:\Users\zbledsoe9495\Downloads\renpy-6.99.14.1-sdk\renpy\python.py", line 1836, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "game/script.rpy", line 29, in <module>
+    if y==fool:
+NameError: name 'fool' is not defined
+
+Windows-7-6.1.7601-SP1
+Ren'Py 6.99.14.1.3218
+Tarot 1.0
+Mon Apr 16 08:53:51 2018
