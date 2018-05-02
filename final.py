@@ -7,3 +7,4 @@
 #transition to bg_outsidehouse
 #transition to bg_frontschool
 #Introduce character and the like
+#This is line 10
