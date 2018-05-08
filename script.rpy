@@ -17,7 +17,7 @@ define config.version = "1.0"
 define gui.about = _("Made by Capn Commie.")
 #Rough start to test the engine and see what it can do
 label start:  
-
+    play music "yeet.mp3"
  
   
 
